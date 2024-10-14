@@ -4,10 +4,6 @@ dan menggunakan JWT Auth sebagai implementasi penggunaan REST API.
 Untuk bagian frontend saya menggunakan React dan Axios untuk memperoses data dari API Laravel, Dan tentu menggunakan Tailwind sebagai frontend css saja.
 
 
-
-
-
-
 ## Spesifikasi 
 | Versi Php | Versi Composer| Description                |
 | :-------- | :-------     | :------------------------- |
@@ -22,7 +18,7 @@ Install jwt-auth with composer install
   composer install
   cd jwt-auth
 ```
->>> **INFO**: 
+> **INFO**: 
 Jika Kalian Menggunakan Laragon Jalankan Langsung dengan Menuliskan halaman Urlnya misalkan : `nama-project.test` dan Jika Menggunakan XAMPP dan `php artisan serve` cukup jalankan `localhost:8000` 
 
 
@@ -31,7 +27,7 @@ Jika Kalian Menggunakan Laragon Jalankan Langsung dengan Menuliskan halaman Urln
 
 #### Post User Baru
 ```http
-   POST /api/register
+   POST: /api/register
 ```
 |Key | Value| Description|
 |:-------| :------| :---------|
@@ -41,7 +37,7 @@ Jika Kalian Menggunakan Laragon Jalankan Langsung dengan Menuliskan halaman Urln
 
 #### Post User Baru
 ```http
-   POST /api/login
+   POST: /api/login
 ```
 |Key | Value| Description|
 |:-------| :------| :---------|
@@ -52,7 +48,7 @@ Jika Kalian Menggunakan Laragon Jalankan Langsung dengan Menuliskan halaman Urln
 #### Get all User
 
 ```http
-  GET /api/user
+  GET: /api/user
 ```
 
 | Key       | Value    |               
@@ -62,5 +58,7 @@ Jika Kalian Menggunakan Laragon Jalankan Langsung dengan Menuliskan halaman Urln
 | `Authorization`  | Bearer `<spasi>` Token
 
 **IMPORTANT:**
->>Jangan Lupa untuk merubah Url arahanya sesuai dengan Web server
+>Jangan Lupa untuk merubah Url arahanya sesuai dengan Web server
 Yang di Pakai ! Kalau Nggak bakalan error. 
+
+
