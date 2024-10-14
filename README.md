@@ -1,16 +1,3 @@
-
-
-# Laravel  + JWT Auth 
-Sebuah Project yang di buat menggunakan Framework Laravel 
-dan menggunakan JWT Auth sebagai implementasi penggunaan REST API.
-Untuk bagian frontend saya menggunakan React dan Axios untuk memperoses data dari API Laravel, Dan tentu menggunakan Tailwind sebagai frontend css saja.
-
-
-
-
-
-
-
 # Laravel  + JWT Auth 
 Sebuah Project yang di buat menggunakan Framework Laravel 
 dan menggunakan JWT Auth sebagai implementasi penggunaan REST API.
@@ -75,5 +62,5 @@ Jika Kalian Menggunakan Laragon Jalankan Langsung dengan Menuliskan halaman Urln
 | `Authorization`  | Bearer `<spasi>` Token
 
 **IMPORTANT:**
->>> Jangan Lupa untuk merubah Url arahanya sesuai dengan Web server
+>>Jangan Lupa untuk merubah Url arahanya sesuai dengan Web server
 Yang di Pakai ! Kalau Nggak bakalan error. 
