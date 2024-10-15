@@ -27,7 +27,7 @@ Jika Kalian Menggunakan Laragon Jalankan Langsung dengan Menuliskan halaman Urln
 
 #### Post User Baru
 ```http
-   POST: /api/register
+   localhost:8000/api/register
 ```
 |Key | Value| Description|
 |:-------| :------| :---------|
@@ -37,7 +37,7 @@ Jika Kalian Menggunakan Laragon Jalankan Langsung dengan Menuliskan halaman Urln
 
 #### Post User Baru
 ```http
-   POST: /api/login
+    localhost:8000/api/login
 ```
 |Key | Value| Description|
 |:-------| :------| :---------|
