@@ -26,7 +26,7 @@ Jika Kalian Menggunakan Laragon Jalankan Langsung dengan Menuliskan halaman Urln
 ## API Reference
 
 #### Post User Baru
-```http
+```POST
    localhost:8000/api/register
 ```
 |Key | Value| Description|
@@ -36,7 +36,7 @@ Jika Kalian Menggunakan Laragon Jalankan Langsung dengan Menuliskan halaman Urln
 |`password`|`required`|`Harus Di Isi`|
 
 #### Post User Baru
-```http
+```POST
     localhost:8000/api/login
 ```
 |Key | Value| Description|
@@ -47,8 +47,8 @@ Jika Kalian Menggunakan Laragon Jalankan Langsung dengan Menuliskan halaman Urln
 
 #### Get all User
 
-```http
-  GET: /api/user
+```GET 
+  localhost:8000/api/user
 ```
 
 | Key       | Value    |               
